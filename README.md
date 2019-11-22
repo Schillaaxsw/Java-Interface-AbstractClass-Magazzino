@@ -57,15 +57,15 @@ Il magazzino è diviso in **settori** che hanno una certa dimensione, una temper
   * con metodi getter e getPrezzo
  
 11. Creare classe Magazzino che contiene il main  
-  * una funzione per collocare i lotti nei vari settori nel caso ci fosse spazio e che aggiorni lo spazio disponibile
+ * una funzione per collocare i lotti nei vari settori nel caso ci fosse spazio e che aggiorni lo spazio disponibile
  
-  * crere un magazzino che è un array di settori
+ * crere un magazzino che è un array di settori
  
-  * creare delle istanze di farina e di orata
+ * creare delle istanze di farina e di orata
  
-  * creare dei lotti che contengano delle istanze di farina o di orata
+ * creare dei lotti che contengano delle istanze di farina o di orata
  
-  * con una funzione che dato un lotto restituisce tutti i settori nei quali può essere collocato in base allo spazio e alla temperatura
+ * con una funzione che dato un lotto restituisce tutti i settori nei quali può essere collocato in base allo spazio e alla temperatura
    * lo spaio disponibile deve essere superiore a quello richiesto dal lotto e la temperatura del settore deve essere inferiore uguale a quella richiesta dal prodotto
   
-  * Il settore contiene un array di lotti
+ * Il settore contiene un array di lotti
