@@ -27,45 +27,45 @@ Il magazzino è diviso in **settori** che hanno una certa dimensione, una temper
 1. creare una interfaccia Prodotto (di vendita) con metodi getDescrizione e getPrezzo
 
 2. Creare una classe Orata (pesce) che implementi l'interfaccia Prodotto
-  * gli attributi della classe sono descirzione e prezzo
-  * deve implementare i metodi dell'interfaccia Prodotto
+   * gli attributi della classe sono descirzione e prezzo
+   * deve implementare i metodi dell'interfaccia Prodotto
 
 3. Creare una interfaccia Pesabile con metodi setPeso e getPeso
 
 4. Creare una classe Farina che implementi Prodotto e Pesabile
-  * con attributi prezzoAlKg e peso
+   * con attributi prezzoAlKg e peso
  
-  * la classe deve implementare i metodi delle interfacce
+   * la classe deve implementare i metodi delle interfacce
  
-  * modificare in maniera opportuna il metodo getPrezzo
+   * modificare in maniera opportuna il metodo getPrezzo
  
 5. Creare una interfaccia NFCLeggibile con metodi getId e getPosizione
  
 6. La classe Orata deve implementare Pesabile
 
 7. Creare una classe ABSTRACT Pesce
-  * con metodi getLuogoPesca e getTempCons (restituisce la temperatura di conservazione)
+   * con metodi getLuogoPesca e getTempCons (restituisce la temperatura di conservazione)
  
 8. Estendere la classe Orata con la classe astratta Pesce
 
 9. Creare la classe Settore 
-  * con attributi posizione, mq (metri quadrati), lotti e temperatura
-  * con metodi getter per ogni attributo e un metodo getMqDisponibili
+   * con attributi posizione, mq (metri quadrati), lotti e temperatura
+   * con metodi getter per ogni attributo e un metodo getMqDisponibili
  
 10. Creare classe lotto che implementi NFCLeggibile
-  * con attributi fornitore, prodotto e quantita e metriQuadri
-  * con metodi getter e getPrezzo
+    * con attributi fornitore, prodotto e quantita e metriQuadri
+    * con metodi getter e getPrezzo
  
 11. Creare classe Magazzino che contiene il main  
- * una funzione per collocare i lotti nei vari settori nel caso ci fosse spazio e che aggiorni lo spazio disponibile
+    * una funzione per collocare i lotti nei vari settori nel caso ci fosse spazio e che aggiorni lo spazio disponibile
  
- * crere un magazzino che è un array di settori
+    * crere un magazzino che è un array di settori
  
- * creare delle istanze di farina e di orata
+    * creare delle istanze di farina e di orata
  
- * creare dei lotti che contengano delle istanze di farina o di orata
+    * creare dei lotti che contengano delle istanze di farina o di orata
  
- * con una funzione che dato un lotto restituisce tutti i settori nei quali può essere collocato in base allo spazio e alla temperatura
-   * lo spaio disponibile deve essere superiore a quello richiesto dal lotto e la temperatura del settore deve essere inferiore uguale a quella richiesta dal prodotto
+    * con una funzione che dato un lotto restituisce tutti i settori nei quali può essere collocato in base allo spazio e alla temperatura
+      * lo spaio disponibile deve essere superiore a quello richiesto dal lotto e la temperatura del settore deve essere inferiore uguale a quella richiesta dal prodotto
   
- * Il settore contiene un array di lotti
+    * Il settore contiene un array di lotti
